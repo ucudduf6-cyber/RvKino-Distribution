@@ -78,3 +78,26 @@ html,body{max-width:100%;overflow-x:hidden}
 .note{line-height:1.75;margin-top:18px}
 @media(max-width:900px){.price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.platform-name-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:620px){.price-grid{grid-template-columns:1fr}.platform-name-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.platform-name{min-height:54px;padding:10px;font-size:14px}.package-columns{grid-template-columns:1fr;gap:24px}.price-large{font-size:34px}.kinopoisk-package{padding:18px}.package-lead{font-size:16px}}
+
+
+/* Pricing page: quick-scan layout and comfortable spacing */
+.pricing-section{padding-top:34px}
+.pricing-section .section-head{align-items:end;margin-bottom:26px}
+.pricing-section .section-head p{max-width:470px;line-height:1.7}
+.platform-price-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.platform-price-grid .price-item{display:flex;flex-direction:column;gap:12px;padding:25px;min-height:270px}
+.platform-price-grid .price-item h3{font-size:21px;line-height:1.3;margin:0}
+.platform-price-grid .price-item .price{font-size:36px;line-height:1.05;font-weight:750;letter-spacing:-1px;margin:2px 0}
+.platform-price-grid .price-item p{font-size:14px;line-height:1.65;flex:1;margin:0}
+.platform-price-grid .price-item .button,.platform-price-grid .price-item .text-link{align-self:flex-start;margin-top:6px}
+.platform-price-grid .price-item.featured{background:linear-gradient(145deg,#242b37,#151a23);border-color:#b65b6a}
+.platform-price-grid .free-item{background:linear-gradient(145deg,#17251f,#111a17);border-color:#466d58}
+.platform-price-grid .free-item .price{font-size:30px}
+.package-details{border:1px solid #303744;border-radius:14px;background:#121720;padding:18px 22px}
+.package-details summary{cursor:pointer;font-weight:650;color:#f1d4d8;line-height:1.5}
+.package-details[open] summary{margin-bottom:18px}
+.package-details .kinopoisk-package{padding:0;border:0;background:transparent}
+.platform-name.optional{gap:7px;padding:14px 12px;line-height:1.45}
+.platform-name.optional small{display:block;font-size:12px;line-height:1.45;white-space:normal}
+@media(max-width:900px){.platform-price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.platform-price-grid{grid-template-columns:1fr;gap:13px}.platform-price-grid .price-item{min-height:0;padding:21px}.platform-price-grid .price-item .price{font-size:34px}.pricing-section .section-head{display:block}.pricing-section .section-head p{margin-top:12px}.package-details{padding:16px}}
