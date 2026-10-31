@@ -1,1 +1,26 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="RVKINO DISTRIBUTION — дистрибуция фильмов и организация кинотеатрального проката."><meta name="theme-color" content="#f8f7f4"><title>О компании — RVKINO DISTRIBUTION</title><link rel="stylesheet" href="css/style.css"></head><body><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html">RVKINO DISTRIBUTION<small>FILM DISTRIBUTION</small></a><button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Главная</a><a href="index.html#films">Фильмы</a><a href="services.html">Услуги и цены</a><a href="actors.html">Актёрам</a><a href="cinema.html">Прокат в кинотеатрах</a><a href="about.html">О компании</a><a href="contacts.html">Контакты</a></nav></div></header><main><section class="page-intro"><div class="wrap"><div class="eyebrow">О компании</div><h1>RVKINO DISTRIBUTION</h1><p class="lead">Организуем подготовку и подачу информации о фильмах на российские и международные киноплощадки.</p></div></section><section class="section"><div class="wrap two-col"><div><h2>Вы предоставляете фильм — остальное мы берём на себя.</h2><p>Мы самостоятельно заполняем необходимые анкеты, подготавливаем документы и сведения о фильме, оформляем материалы для площадок, выполняем рассылки, связываемся с представителями сервисов, ведём переписку и отслеживаем рассмотрение заявок.</p><p>При необходимости заказчик подтверждает права на фильм и предоставляет сведения, которые невозможно достоверно установить без его участия.</p></div><div><h2>Сопровождение</h2><ul class="service-list"><li><span>Сбор и оформление сведений</span><span>01</span></li><li><span>Подготовка материалов и документов</span><span>02</span></li><li><span>Подача заявок и коммуникация</span><span>03</span></li><li><span>Работа с замечаниями</span><span>04</span></li><li><span>Передача ссылок на карточки</span><span>05</span></li></ul></div></div></section></main><footer class="footer"><div class="wrap"><div class="footer-grid"><div><a class="brand" href="index.html">RVKINO DISTRIBUTION</a><p style="max-width:340px;margin-top:18px">Дистрибуция фильмов, размещение на киноплатформах и организация кинотеатрального проката.</p><p><a href="mailto:RvKinoproduction@zohomail.com">RvKinoproduction@zohomail.com</a></p></div><div><h3>Разделы</h3><div class="footer-links"><a href="index.html#films">Фильмы</a><a href="services.html">Услуги и цены</a><a href="actors.html">Актёрам</a><a href="cinema.html">Кинотеатральный прокат</a><a href="about.html">О компании</a><a href="contacts.html">Контакты</a></div></div><div><h3>Связаться</h3><div class="footer-links"><a href="https://t.me/rvkino_dist" target="_blank" rel="noopener"><img class="social-icon" src="https://cdn.simpleicons.org/telegram/26A5E4" alt="" loading="lazy">Telegram</a><a href="https://vk.ru/rvkino_dist" target="_blank" rel="noopener"><img class="social-icon" src="https://cdn.simpleicons.org/vk/0077FF" alt="" loading="lazy">ВКонтакте</a><a href="tel:+79160876920">+7 (916) 087-69-20</a><a href="tel:+79520414855">+7 (952) 041-48-55</a></div></div></div><div class="legal-links"><a href="legal/privacy.html">Политика конфиденциальности</a><a href="legal/consent.html">Согласие на обработку ПДн</a><a href="legal/terms.html">Условия использования</a><a href="legal/services.html">Условия оказания услуг</a><a href="legal/refunds.html">Оплата и возвраты</a><a href="legal/company.html">Информация об исполнителе</a></div><div class="copyright">© 2026 RVKINO DISTRIBUTION. Все права защищены. Юридические документы требуют заполнения реквизитов перед коммерческим запуском.</div></div></footer><script src="js/main.js"></script></body></html>
+# RVKINO Distribution — исправленная версия сайта
+
+Полный статический сайт для GitHub Pages:
+- `index.html` — главная;
+- `css/style.css` — общие стили;
+- `js/main.js` — мобильное меню и обработка форм;
+- `films/` — четыре страницы фильмов;
+- `images/` — четыре оригинальных постера;
+- `legal/` — юридические страницы;
+- остальные HTML-файлы — услуги, актёрам, кинотеатральный прокат, о компании и контакты.
+
+## Как заменить текущую версию на GitHub
+
+1. Скачайте и распакуйте архив.
+2. В репозитории `ucudduf6-cyber/RvKino-Distribution` удалите старые файлы и папки из корня, включая дубли `index (1).html`, `services (1).html`, старые `style.css` и старые HTML-файлы.
+3. Загрузите **всё содержимое папки `RvKino-Distribution` из архива**, а не саму папку, в корень репозитория.
+4. Проверьте, что `index.html` находится непосредственно в корне, а рядом с ним лежат папки `css`, `js`, `films`, `images`, `legal`.
+5. Нажмите Commit changes. В Settings → Pages оставьте Deploy from a branch, ветка `main`, папка `/ (root)`.
+
+**Важно:** не смешивайте новую структуру с прежними HTML-файлами в корне. Старые дубли и новые страницы не должны сосуществовать.
+
+## Формы
+GitHub Pages не принимает заявки самостоятельно. Формы открывают почтовую программу с письмом на `RvKinoproduction@zohomail.com`; пользователь должен подтвердить отправку.
+
+## Перед коммерческим запуском
+Проверьте тарифы, контакты и ссылки на соцсети, заполните юридические реквизиты в `legal/`. Юридические страницы требуют проверки и не являются юридическим заключением.
