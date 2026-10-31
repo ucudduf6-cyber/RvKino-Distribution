@@ -101,3 +101,18 @@ html,body{max-width:100%;overflow-x:hidden}
 .platform-name.optional small{display:block;font-size:12px;line-height:1.45;white-space:normal}
 @media(max-width:900px){.platform-price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.platform-price-grid{grid-template-columns:1fr;gap:13px}.platform-price-grid .price-item{min-height:0;padding:21px}.platform-price-grid .price-item .price{font-size:34px}.pricing-section .section-head{display:block}.pricing-section .section-head p{margin-top:12px}.package-details{padding:16px}}
+
+
+/* Minimal, calmer spacing and shorter visual rhythm */
+.page-intro .lead{max-width:680px;margin:14px 0 10px}
+.page-intro .lead-small{margin:8px 0 20px;color:var(--muted,#a7a7a7)}
+.section{padding-top:clamp(42px,6vw,72px);padding-bottom:clamp(42px,6vw,72px)}
+.section-head{margin-bottom:24px}
+.section-head p,.note{max-width:660px}
+.price-item{padding:clamp(18px,2.4vw,26px);gap:12px}
+.price-item p{margin:0;line-height:1.55}
+.price-item h3{line-height:1.2}
+.platform-name{padding:12px 14px}
+.package-details{margin-top:18px}
+.contact-note{max-width:520px;line-height:1.55}
+@media(max-width:700px){.section{padding-top:38px;padding-bottom:38px}.price-item{padding:18px}.section-head{margin-bottom:18px}}
