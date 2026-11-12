@@ -4,7 +4,7 @@
 
   const STORAGE_KEYS = { films: "rvkino_distribution_films_v1", contacts: "rvkino_distribution_contacts_v1" };
   // Пароль в клиентском JS не является защитой: это только скрытие интерфейса от случайного посетителя.
-  const ADMIN_PASSWORD = "admin";
+  const ADMIN_PASSWORD = "27012009";
 
   const defaultFilms = [
     {id:"film-1",title:"По следам счастья",year:"2026",genre:"Драма, короткометражка",synopsis:"Брат и сестра борются за одну должность. Амбиции разрушают семью.",director:"Татьяна Кузьмина",producer:"Владислав Роженцев",cast:"Матвей Вольный, Виолетта Байракова, Мария Коцич и др.",runtime:"",poster:"assets/posters/po_sledam_schastya.jpg",filmUrl:"https://rvkino.ru/films/51/movie-26/",trailerUrl:"",showTrailer:true},
